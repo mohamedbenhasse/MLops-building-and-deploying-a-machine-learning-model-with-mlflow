@@ -1,0 +1,11 @@
+name: Titanic Survival Prediction
+
+entry_points:
+  import_data:
+    command: "python src/import_data.py"
+  train_model:
+    command: "python src/train_model.py"
+  evaluate_model:
+    command: "python src/evaluate_model.py"
+  make_predictions:
+    command: "python src/make_predictions.py"
